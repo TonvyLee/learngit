@@ -33,3 +33,7 @@ git push		//将代码push到github，默认推送到别名为origin的仓库中�
 如果有多个分支或者多个仓库，并且需要将代码推送到仓库指定的分支上，那么需要在pull或者push的时候，就需要按照下面的格式：
 git pull 仓库名 仓库分支名
 git push 仓库名 仓库分支名
+
+出现failed to push some refs to ....的办法：
+执行：git pull --rebase origin master
+
